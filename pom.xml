@@ -7,18 +7,18 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.17</version>
+        <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.adchou</groupId>
+    <groupId>com.achou</groupId>
     <artifactId>microservices-new</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>product-service</module>
-<!--        <module>order-service<&lt;!&ndash;/module>-->
-<!--        <module>inventory-service</module>&ndash;&gt;-->
+<!--        <module>order-service</module>-->
+<!--        <module>inventory-service</module>-->
     </modules>
 
     <properties>
@@ -46,7 +46,7 @@
                 <configuration>
                     <excludes>
                         <exclude>
-                            <groupId>org.project-lombok</groupId>
+                            <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
